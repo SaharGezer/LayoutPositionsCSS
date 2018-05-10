@@ -1,0 +1,248 @@
+*{margin:0;padding:0;}
+#wrapper 
+{
+    width: 1000px;
+    margin: 0px auto;
+}
+
+nav
+{
+    display: block;
+    float: right;
+}
+
+header
+{
+    height: 182px;
+    width: 1000px;
+}
+
+main
+{
+    display: block;
+}
+
+section
+{
+    display: block;
+}
+
+.clear 
+{
+    clear: both;
+}
+
+.logo
+{
+    position: absolute;
+    background: url(../images/carrot.png) no-repeat left;
+    height: 67px;
+    width: 70px;
+}
+
+/* ------------- Layout 1 ------------- */
+.logo_position1
+{
+    position: relative;
+    top:10px;
+    left:102px;
+}
+
+.menu li
+{
+    list-style: none;
+    height: 56px;
+    width: 240px;
+    margin-top: 126px;
+    background-color: #5F2624;
+    text-align: center;
+    float: left;
+    line-height: 56px;
+}
+
+.menu a
+{
+	text-decoration:none;
+    color:#FFFFFF;
+}
+
+#lay1
+{
+    background-color: #000000;
+}
+
+
+.side_bar1
+{
+    float: left;
+    height: 695px;
+    width: 119px;
+    background-color: #F2DEDE;
+}
+
+.main_block
+{
+    height: 267px;
+    width: 848px;
+    background-color: #EE5F56;
+    float: right;
+}
+
+.rec
+{
+    position: relative;
+    left: 350px;
+    top: 85px;
+    height: 95px;
+    width: 127px;
+    background-color: #5F2624;
+}
+
+
+.second_block
+{
+    height: 428px;
+    width: 849px;
+    background-color: #FFFFFF;
+    float: right;
+}
+
+#box2
+{
+    position: relative;
+    height: 175px;
+    width: 695px;
+    background-color: #666666;
+    top: 224px;
+    left: 78px;
+}
+
+
+.foot_bar
+{
+    position: relative;
+    display:block;
+    height: 121px;
+    width: 1000px;
+    background-color: #D6D6D6;
+}
+
+/* ------------- Layout 2 ------------- */
+
+.logo_position2
+{
+    position: relative;
+    top:38.5px;
+    left:464px;
+}
+
+
+.menu_two li
+{
+    list-style: none;
+    height: 60px;
+    font-size: 20px;
+    line-height: 60px;
+}
+
+.menu_two
+{
+    position: absolute;
+    top:182px;
+    list-style: none;
+    height: 180px;
+    width: 243px;
+    background-color: #333333;
+}
+
+.menu_two a
+{
+    text-decoration:none;
+    color:#FFFFFF;
+}
+
+#selected
+{
+    background-color: #b94a48;
+}
+.side_bar2
+{
+    position: absolute;
+    float: left;
+    top:362px;
+    height: 652px;
+    width: 243px;
+    background-color: #333333;
+}
+
+.lay_main
+{
+    position: relative;
+    float: right;
+    height: 832px;
+    width: 757px;
+    background-color: #ee5f5b;
+}
+
+.box_one
+{
+    position: relative;
+    left: 32px;
+    height: 366px;
+    width: 214px;
+    background-color: #5f2624;
+}
+
+.box_two
+{
+    position: relative;
+    top:18px;
+    left: 32px;
+    height: 500px;
+    width: 214px;
+    background-color: #5f2624;
+}
+
+.box_three
+{
+    position: absolute;
+    top:0px;
+    left: 278px;
+    height: 560px;
+    width: 214px;
+    background-color: #5f2624;
+}
+
+.box_four
+{
+    position: absolute;
+    top: 578px;
+    left: 278px;
+    height: 306px;
+    width: 214px;
+    background-color: #5F2626;
+}
+
+.box_five
+{
+    position: absolute;
+    top: 0px;
+    left: 518px;
+    height: 223px;
+    width: 214px;
+    background-color: #5F2626;
+}
+.foot_bar2
+{
+    position: fixed;
+    display:block;
+    bottom: 0px;
+    height: 52px;
+    width: 1000px;
+    background-color: #D6D6D6;
+}
+
+.absmain
+{
+    position: absolute;
+}
