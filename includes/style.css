@@ -8,7 +8,6 @@
 nav
 {
     display: block;
-    float: right;
 }
 
 header
@@ -46,6 +45,10 @@ section
     position: relative;
     top:10px;
     left:102px;
+}
+
+.menu{
+    float: right;
 }
 
 .menu li
@@ -246,3 +249,88 @@ section
 {
     position: absolute;
 }
+
+/* ------------- Layout 3 ------------- */
+.containerLeft
+{
+    float: left;
+}
+.lay3Class{
+    height:500px;
+    width: 1000px;
+    position: left;
+}
+
+.plusButton{
+    height: 437px;
+    width: 500px;
+}
+
+.plusButton p{
+    position: relative;
+    top: 158px;
+    left: 224px;
+    font-size: 100px;
+    font-weight: bold;
+}
+
+lay3Nav{
+    float: left;
+}
+
+
+.lay3Nav li{
+    list-style: none;
+    height: 63px;
+    width: 166.5px;
+    font-size: 20px;
+    line-height: 60px;
+    float: left;
+    background-color:#b94a48;
+    text-align: center;
+}
+
+.lay3Nav a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+#lay3Selected{
+    background-color: #333333;
+}
+
+
+.lay3Box
+{
+    height: 250px;
+    width: 250px;
+    float: left;
+    background-color: #1f0806;
+}
+
+
+#Box1{
+    opacity: 1;
+    
+}
+
+#Box2{
+    opacity:0.81;
+}
+
+#Box3{
+    opacity:0.75;
+}
+
+#Box4{
+    opacity:0.67;
+}
+
+.lay3Main{
+    position: flex;
+    height: 500px;
+    width: 1000px;
+    background-color: #9d261d;
+}
+
+
